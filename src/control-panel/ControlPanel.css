@@ -1,0 +1,31 @@
+#control-panel {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+#format-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.format-action {
+  font-size: 1.2em;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.format-action.active {
+  background-color: #ccc;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: row;
+}
